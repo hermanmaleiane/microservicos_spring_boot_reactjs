@@ -10,8 +10,7 @@ The application structure is as follows.
    
 ```
 $ cd server-product-management
-$ gradlew bootJar
-$ gradlew bootRun
+mvn clean install -U
 ```
 
 #### 2) Build and run client side
@@ -24,7 +23,7 @@ $ npm start
 ### Access server side using following URL
 
 ```
-http://localhost:8080
+http://localhost:8081
 ```
 
 ### Access application using following URL
